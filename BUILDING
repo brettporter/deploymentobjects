@@ -25,7 +25,7 @@
 ************************************************************************/
 
 To build:
-mvn clean antlr3:antlr compile test
+mvn clean antlr3:antlr test
 
 On mac, when installing libvirt via macports, java can't seem to find the shared library:
 java.lang.UnsatisfiedLinkError: Unable to load library 'virt': dlopen(libvirt.dylib, 9): image not found
